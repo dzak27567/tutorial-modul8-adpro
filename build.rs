@@ -5,7 +5,7 @@ fn main() -> Result<(), Box<dyn std :: error:: Error>> {
             &["proto/services.proto"], // Path to your proto file
             &["proto"],
     
-        ) ?;
+        )?;
     Ok(())
 
 }   
